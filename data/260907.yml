@@ -5,13 +5,13 @@ about:
   head: 7fef1c8
   archived: false
   latestVersion: "v3.5.0"
-  collectedAt: 2026-09-07T05:29:39Z
+  collectedAt: 2026-09-07T18:59:05Z
 timeline:
   created: 2020-05-25
   lastCommit: 2026-09-04
   lastRelease: 2026-08-13
 popularity:
-  star: 5187
+  star: 5190
   watcher: 63
   fork: 591
   release: 6
@@ -40,59 +40,59 @@ recent:
     release: 1
     mergedPR: 22
     openPR: 6
-    closedIssue: 9
-    openIssue: 5
+    closedIssue: 10
+    openIssue: 4
     commit: 24
   last60d:
     since: 2026-07-09
     release: 1
     mergedPR: 27
     openPR: 12
-    closedIssue: 9
-    openIssue: 9
+    closedIssue: 10
+    openIssue: 8
     commit: 180
   last90d:
     since: 2026-06-09
     release: 1
     mergedPR: 38
     openPR: 20
-    closedIssue: 12
-    openIssue: 11
+    closedIssue: 13
+    openIssue: 10
     commit: 290
   last180d:
     since: 2026-03-11
     release: 4
     mergedPR: 111
     openPR: 34
-    closedIssue: 42
-    openIssue: 17
+    closedIssue: 43
+    openIssue: 16
     commit: 474
   last360d:
     since: 2025-09-12
     release: 4
     mergedPR: 118
     openPR: 37
-    closedIssue: 59
-    openIssue: 34
+    closedIssue: 60
+    openIssue: 33
     commit: 486
   last720d:
     since: 2024-09-17
     release: 6
     mergedPR: 146
     openPR: 48
-    closedIssue: 113
-    openIssue: 82
+    closedIssue: 114
+    openIssue: 81
     commit: 564
 total:
   release: 6
   mergedPR: 215
   openPR: 64
-  closedIssue: 351
-  openIssue: 264
+  closedIssue: 352
+  openIssue: 263
   commit: 7978
 ---
 path: /home/runner/.x-repo/github.com/RsyncProject/rsync
-collectedAt: 2026-09-07T05:29:44Z
+collectedAt: 2026-09-07T18:59:10Z
 loc:
   C:
     code: 48620
@@ -193,7 +193,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T05:29:45+00:00
+  collectedAt: 2026-09-07T18:59:12+00:00
   platform:
     darwin/arm64:
       name:  null
