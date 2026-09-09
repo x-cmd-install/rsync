@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.5.0"
   latestRelease: "v3.5.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:38:01Z
+  collectedAt: 2026-09-09T20:06:47Z
 timeline:
   created: 2020-05-25
   lastCommit: 2026-09-09
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2026-08-13
   lastPrerelease: 
 popularity:
-  star: 5198
+  star: 5200
   watcher: 63
-  fork: 592
+  fork: 593
   release: 6
   contributor: 89
   pullRequest: 361
@@ -96,7 +96,7 @@ total:
   commit: 7979
 ---
 path: /home/runner/.x-repo/github.com/RsyncProject/rsync
-collectedAt: 2026-09-09T05:38:04Z
+collectedAt: 2026-09-09T20:06:53Z
 loc:
   C:
     code: 48620
