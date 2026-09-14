@@ -38,22 +38,22 @@ Total: **94,275** lines of code across **537** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 5,207 · **Forks**: 597 · **Open issues**: 617 · **Contributors**: 89
+- **Stars**: 5,208 · **Forks**: 597 · **Open issues**: 618 · **Contributors**: 89
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 217 · **Open PRs**: 64 · **Closed issues**: 354 · **Open issues**: 263 · **Commits**: 7980
+- **Releases**: 6 · **Merged PRs**: 217 · **Open PRs**: 64 · **Closed issues**: 354 · **Open issues**: 264 · **Commits**: 7980
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 15 | 4 | 6 | 4 | 11 |
-| last60d | 2026-07-15 | 1 | 27 | 12 | 12 | 7 | 156 |
-| 90d | 2026-06-15 | 1 | 31 | 17 | 14 | 10 | 261 |
-| last180d | 2026-03-17 | 4 | 113 | 34 | 45 | 15 | 476 |
-| 360d | 2025-09-18 | 4 | 120 | 37 | 62 | 32 | 488 |
-| last720d | 2024-09-23 | 6 | 148 | 48 | 116 | 79 | 566 |
+| 30d | 2026-08-15 | 0 | 12 | 3 | 6 | 5 | 11 |
+| last60d | 2026-07-16 | 1 | 26 | 12 | 12 | 8 | 156 |
+| 90d | 2026-06-16 | 1 | 31 | 17 | 14 | 11 | 261 |
+| last180d | 2026-03-18 | 4 | 113 | 34 | 45 | 16 | 476 |
+| 360d | 2025-09-19 | 4 | 120 | 37 | 62 | 32 | 488 |
+| last720d | 2024-09-24 | 6 | 148 | 48 | 116 | 80 | 566 |
 
 ## Release assets
 
@@ -61,25 +61,6 @@ Total: **94,275** lines of code across **537** files in the top 5 languages.
 |-------|-----:|--------|
 | [rsync-3.5.0.tar.gz](https://github.com/RsyncProject/rsync/releases/download/v3.5.0/rsync-3.5.0.tar.gz) | 1.8 MiB | `native/unknown` |
 | [rsync-3.5.0.tar.gz.asc](https://github.com/RsyncProject/rsync/releases/download/v3.5.0/rsync-3.5.0.tar.gz.asc) | 862 B | `other` |
-
-## Distribution status
-
-Reported by **371** distros on [repology.org](https://repology.org/project/rsync). **84** are ✅ on the latest upstream release, **213** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.5.0` | ✅ latest |
-| Debian 14 | `3.5.0` | ✅ latest |
-| Debian 13 | `3.4.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.4.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.2.7` | ⚠️ outdated |
-| Arch | `3.5.0` | ✅ latest |
-| Homebrew | `3.5.0` | ✅ latest |
-| Fedora rawhide | `3.5.0` | ✅ latest |
-| Nix unstable | `3.5.0` | ✅ latest |
-| Void | `3.5.0` | ✅ latest |
-| Alpine edge | `3.5.0` | ✅ latest |
-| openSUSE Tumbleweed | `3.4.3` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -90,4 +71,4 @@ Install metadata for rsync lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:52:19Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:53:18Z._
