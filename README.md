@@ -14,14 +14,14 @@ x install rsync
 
 ## Code insight
 
-Total: **94,724** lines of code across **539** files in the top 5 languages.
+Total: **95,705** lines of code across **542** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 48,657 | 9,593 | 6,970 | 87 |
-| Python | 33,520 | 7,270 | 6,446 | 380 |
-| Html | 4,814 | 125 | 541 | 37 |
-| CHeader | 4,199 | 2,536 | 869 | 33 |
+| C | 49,011 | 9,609 | 7,000 | 87 |
+| Python | 34,128 | 7,307 | 6,546 | 383 |
+| Html | 4,831 | 125 | 545 | 37 |
+| CHeader | 4,201 | 2,536 | 869 | 33 |
 | AssemblyGAS | 857 | 27 | 26 | 2 |
 
 ## Source
@@ -32,35 +32,35 @@ Total: **94,724** lines of code across **539** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v3.5.0` (2026-08-13)
-- **Last commit**: 2026-09-19
+- **Latest**: `v3.5.1` (2026-09-21)
+- **Last commit**: 2026-09-21
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,227 · **Forks**: 597 · **Open issues**: 621 · **Contributors**: 90
+- **Stars**: 5,228 · **Forks**: 597 · **Open issues**: 622 · **Contributors**: 90
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 223 · **Open PRs**: 63 · **Closed issues**: 360 · **Open issues**: 261 · **Commits**: 7986
+- **Releases**: 7 · **Merged PRs**: 227 · **Open PRs**: 61 · **Closed issues**: 362 · **Open issues**: 260 · **Commits**: 7993
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 13 | 3 | 9 | 4 | 17 |
-| last60d | 2026-07-22 | 1 | 30 | 7 | 17 | 5 | 109 |
-| 90d | 2026-06-22 | 1 | 36 | 15 | 19 | 8 | 225 |
-| last180d | 2026-03-24 | 4 | 119 | 33 | 49 | 13 | 482 |
-| 360d | 2025-09-25 | 4 | 126 | 36 | 67 | 30 | 494 |
-| last720d | 2024-09-30 | 6 | 154 | 47 | 120 | 78 | 572 |
+| 30d | 2026-08-22 | 1 | 17 | 1 | 10 | 3 | 24 |
+| last60d | 2026-07-23 | 2 | 34 | 5 | 19 | 4 | 116 |
+| 90d | 2026-06-23 | 2 | 40 | 12 | 21 | 7 | 232 |
+| last180d | 2026-03-25 | 5 | 123 | 31 | 51 | 12 | 489 |
+| 360d | 2025-09-26 | 5 | 130 | 34 | 69 | 28 | 501 |
+| last720d | 2024-10-01 | 7 | 158 | 45 | 122 | 76 | 579 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [rsync-3.5.0.tar.gz](https://github.com/RsyncProject/rsync/releases/download/v3.5.0/rsync-3.5.0.tar.gz) | 1.8 MiB | `native/unknown` |
-| [rsync-3.5.0.tar.gz.asc](https://github.com/RsyncProject/rsync/releases/download/v3.5.0/rsync-3.5.0.tar.gz.asc) | 862 B | `other` |
+| [rsync-3.5.1.tar.gz](https://github.com/RsyncProject/rsync/releases/download/v3.5.1/rsync-3.5.1.tar.gz) | 1.8 MiB | `native/unknown` |
+| [rsync-3.5.1.tar.gz.asc](https://github.com/RsyncProject/rsync/releases/download/v3.5.1/rsync-3.5.1.tar.gz.asc) | 273 B | `other` |
 
 ## Improve this data
 
@@ -71,4 +71,4 @@ Install metadata for rsync lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T05:48:51Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T05:50:34Z._
