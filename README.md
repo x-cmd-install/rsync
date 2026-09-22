@@ -14,12 +14,12 @@ x install rsync
 
 ## Code insight
 
-Total: **95,705** lines of code across **542** files in the top 5 languages.
+Total: **95,706** lines of code across **542** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 49,011 | 9,609 | 7,000 | 87 |
-| Python | 34,128 | 7,307 | 6,546 | 383 |
+| Python | 34,129 | 7,309 | 6,546 | 383 |
 | Html | 4,831 | 125 | 545 | 37 |
 | CHeader | 4,201 | 2,536 | 869 | 33 |
 | AssemblyGAS | 857 | 27 | 26 | 2 |
@@ -38,22 +38,22 @@ Total: **95,705** lines of code across **542** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 5,228 · **Forks**: 597 · **Open issues**: 622 · **Contributors**: 90
+- **Stars**: 5,230 · **Forks**: 597 · **Open issues**: 623 · **Contributors**: 90
 
 ## Totals (cumulative)
 
-- **Releases**: 7 · **Merged PRs**: 227 · **Open PRs**: 61 · **Closed issues**: 362 · **Open issues**: 260 · **Commits**: 7993
+- **Releases**: 7 · **Merged PRs**: 228 · **Open PRs**: 60 · **Closed issues**: 362 · **Open issues**: 261 · **Commits**: 7994
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 1 | 17 | 1 | 10 | 3 | 24 |
-| last60d | 2026-07-23 | 2 | 34 | 5 | 19 | 4 | 116 |
-| 90d | 2026-06-23 | 2 | 40 | 12 | 21 | 7 | 232 |
-| last180d | 2026-03-25 | 5 | 123 | 31 | 51 | 12 | 489 |
-| 360d | 2025-09-26 | 5 | 130 | 34 | 69 | 28 | 501 |
-| last720d | 2024-10-01 | 7 | 158 | 45 | 122 | 76 | 579 |
+| 30d | 2026-08-23 | 1 | 18 | 0 | 10 | 4 | 25 |
+| last60d | 2026-07-24 | 2 | 35 | 4 | 19 | 5 | 117 |
+| 90d | 2026-06-24 | 2 | 41 | 11 | 21 | 8 | 233 |
+| last180d | 2026-03-26 | 5 | 124 | 30 | 51 | 13 | 490 |
+| 360d | 2025-09-27 | 5 | 131 | 33 | 69 | 29 | 502 |
+| last720d | 2024-10-02 | 7 | 159 | 44 | 122 | 77 | 580 |
 
 ## Release assets
 
@@ -71,4 +71,4 @@ Install metadata for rsync lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T05:50:34Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T05:57:17Z._
