@@ -4,7 +4,7 @@
 
 An open source utility that provides fast incremental file transfer. It also has useful features for backup and restore operations among many other use cases.
 
-[![x-cmd/install — rsync Code Quality Monitoring Repo Card](https://repo.x-cmd.io/rsync.svg)](https://x-cmd.com/install/rsync)
+[![x-cmd/install — rsync Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/rsync.svg)](https://x-cmd.com/install/rsync)
 
 ## Install
 
@@ -38,22 +38,22 @@ Total: **95,706** lines of code across **542** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 5,230 · **Forks**: 597 · **Open issues**: 623 · **Contributors**: 90
+- **Stars**: 5,234 · **Forks**: 598 · **Open issues**: 624 · **Contributors**: 90
 
 ## Totals (cumulative)
 
-- **Releases**: 7 · **Merged PRs**: 228 · **Open PRs**: 60 · **Closed issues**: 362 · **Open issues**: 261 · **Commits**: 7994
+- **Releases**: 7 · **Merged PRs**: 228 · **Open PRs**: 60 · **Closed issues**: 363 · **Open issues**: 261 · **Commits**: 7994
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 18 | 0 | 10 | 4 | 25 |
-| last60d | 2026-07-24 | 2 | 35 | 4 | 19 | 5 | 117 |
-| 90d | 2026-06-24 | 2 | 41 | 11 | 21 | 8 | 233 |
-| last180d | 2026-03-26 | 5 | 124 | 30 | 51 | 13 | 490 |
-| 360d | 2025-09-27 | 5 | 131 | 33 | 69 | 29 | 502 |
-| last720d | 2024-10-02 | 7 | 159 | 44 | 122 | 77 | 580 |
+| 30d | 2026-08-24 | 1 | 18 | 0 | 11 | 4 | 25 |
+| last60d | 2026-07-25 | 2 | 35 | 4 | 20 | 5 | 117 |
+| 90d | 2026-06-25 | 2 | 41 | 11 | 22 | 8 | 233 |
+| last180d | 2026-03-27 | 5 | 124 | 30 | 52 | 13 | 490 |
+| 360d | 2025-09-28 | 5 | 131 | 33 | 70 | 29 | 502 |
+| last720d | 2024-10-03 | 7 | 159 | 44 | 123 | 77 | 580 |
 
 ## Release assets
 
@@ -71,4 +71,4 @@ Install metadata for rsync lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:57:17Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:55:47Z._
