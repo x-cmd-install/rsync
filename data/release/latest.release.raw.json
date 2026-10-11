@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1932807,
       "digest": "sha256:c55f9c9dc10fb8bec397b399a0fdded53cc9a2d8e30891bb0d63724d25c37bef",
-      "download_count": 8229,
+      "download_count": 8446,
       "created_at": "2026-09-21T04:10:16Z",
       "updated_at": "2026-09-21T04:10:17Z",
       "browser_download_url": "https://github.com/RsyncProject/rsync/releases/download/v3.5.1/rsync-3.5.1.tar.gz"
