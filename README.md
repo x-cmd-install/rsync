@@ -38,22 +38,22 @@ Total: **97,024** lines of code across **551** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 5,292 · **Forks**: 612 · **Open issues**: 638 · **Contributors**: 95
+- **Stars**: 5,294 · **Forks**: 613 · **Open issues**: 639 · **Contributors**: 95
 
 ## Totals (cumulative)
 
-- **Releases**: 7 · **Merged PRs**: 239 · **Open PRs**: 64 · **Closed issues**: 374 · **Open issues**: 264 · **Commits**: 8008
+- **Releases**: 7 · **Merged PRs**: 239 · **Open PRs**: 64 · **Closed issues**: 374 · **Open issues**: 265 · **Commits**: 8008
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-18 | 1 | 11 | 7 | 9 | 8 | 23 |
-| last60d | 2026-08-19 | 1 | 27 | 7 | 20 | 10 | 43 |
-| 90d | 2026-07-20 | 2 | 44 | 11 | 28 | 12 | 196 |
-| last180d | 2026-04-21 | 5 | 129 | 35 | 57 | 18 | 501 |
-| 360d | 2025-10-23 | 5 | 141 | 37 | 75 | 33 | 516 |
-| last720d | 2024-10-28 | 7 | 169 | 48 | 128 | 79 | 594 |
+| 30d | 2026-09-19 | 1 | 11 | 7 | 9 | 9 | 14 |
+| last60d | 2026-08-20 | 1 | 27 | 7 | 20 | 11 | 39 |
+| 90d | 2026-07-21 | 2 | 44 | 10 | 28 | 12 | 140 |
+| last180d | 2026-04-22 | 5 | 125 | 35 | 57 | 19 | 492 |
+| 360d | 2025-10-24 | 5 | 141 | 37 | 75 | 34 | 516 |
+| last720d | 2024-10-29 | 7 | 169 | 48 | 128 | 80 | 594 |
 
 ## Release assets
 
@@ -71,4 +71,4 @@ Install metadata for rsync lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261018.yml` · 2026-10-18T05:06:42Z._
+_Snapshot: `data/card/261019.yml` · 2026-10-19T05:20:23Z._
