@@ -14,12 +14,12 @@ x install rsync
 
 ## Code insight
 
-Total: **97,514** lines of code across **554** files in the top 5 languages.
+Total: **97,662** lines of code across **555** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 49,337 | 9,647 | 7,036 | 87 |
-| Python | 35,611 | 7,505 | 6,845 | 395 |
+| C | 49,342 | 9,648 | 7,036 | 87 |
+| Python | 35,754 | 7,507 | 6,877 | 396 |
 | Html | 4,831 | 125 | 545 | 37 |
 | CHeader | 4,201 | 2,536 | 869 | 33 |
 | AssemblyGAS | 857 | 27 | 26 | 2 |
@@ -33,27 +33,27 @@ Total: **97,514** lines of code across **554** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v3.5.1` (2026-09-21)
-- **Last commit**: 2026-10-20
+- **Last commit**: 2026-10-22
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,301 · **Forks**: 615 · **Open issues**: 639 · **Contributors**: 95
+- **Stars**: 5,303 · **Forks**: 616 · **Open issues**: 639 · **Contributors**: 96
 
 ## Totals (cumulative)
 
-- **Releases**: 7 · **Merged PRs**: 241 · **Open PRs**: 65 · **Closed issues**: 374 · **Open issues**: 265 · **Commits**: 8010
+- **Releases**: 7 · **Merged PRs**: 243 · **Open PRs**: 63 · **Closed issues**: 375 · **Open issues**: 264 · **Commits**: 8012
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 11 | 8 | 8 | 7 | 16 |
-| last60d | 2026-08-23 | 1 | 29 | 8 | 19 | 11 | 41 |
-| 90d | 2026-07-24 | 2 | 46 | 11 | 28 | 12 | 142 |
-| last180d | 2026-04-25 | 5 | 127 | 36 | 57 | 19 | 494 |
-| 360d | 2025-10-27 | 5 | 143 | 37 | 75 | 34 | 518 |
-| last720d | 2024-11-01 | 7 | 171 | 49 | 127 | 79 | 595 |
+| 30d | 2026-09-23 | 0 | 13 | 5 | 9 | 6 | 18 |
+| last60d | 2026-08-24 | 1 | 31 | 6 | 20 | 10 | 43 |
+| 90d | 2026-07-25 | 2 | 48 | 9 | 29 | 11 | 144 |
+| last180d | 2026-04-26 | 5 | 129 | 34 | 57 | 18 | 496 |
+| 360d | 2025-10-28 | 5 | 145 | 35 | 76 | 33 | 520 |
+| last720d | 2024-11-02 | 7 | 173 | 47 | 128 | 78 | 597 |
 
 ## Release assets
 
@@ -61,6 +61,25 @@ Total: **97,514** lines of code across **554** files in the top 5 languages.
 |-------|-----:|--------|
 | [rsync-3.5.1.tar.gz](https://github.com/RsyncProject/rsync/releases/download/v3.5.1/rsync-3.5.1.tar.gz) | 1.8 MiB | `native/unknown` |
 | [rsync-3.5.1.tar.gz.asc](https://github.com/RsyncProject/rsync/releases/download/v3.5.1/rsync-3.5.1.tar.gz.asc) | 273 B | `other` |
+
+## Distribution status
+
+Reported by **370** distros on [repology.org](https://repology.org/project/rsync). **68** are ✅ on the latest upstream release, **220** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.5.1` | ✅ latest |
+| Debian 14 | `3.5.1` | ✅ latest |
+| Debian 13 | `3.5.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.4.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.2.7` | ⚠️ outdated |
+| Arch | `3.5.1` | ✅ latest |
+| Homebrew | `3.5.1` | ✅ latest |
+| Fedora rawhide | `3.5.1` | ✅ latest |
+| Nix unstable | `3.5.0` | ⚠️ outdated |
+| Void | `3.5.1` | ✅ latest |
+| Alpine edge | `3.5.1` | ✅ latest |
+| openSUSE Tumbleweed | `3.5.1` | ✅ latest |
 
 ## Improve this data
 
@@ -71,4 +90,4 @@ Install metadata for rsync lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:24:44Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:26:42Z._
