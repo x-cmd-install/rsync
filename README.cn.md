@@ -14,14 +14,14 @@ x install rsync
 
 ## 代码洞察
 
-合计: **97,859** 行代码（覆盖前 5 种语言、共 **556** 个文件）。
+合计: **98,787** 行代码（覆盖前 5 种语言、共 **559** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 49,428 | 9,648 | 7,038 | 87 |
-| Python | 35,825 | 7,509 | 6,889 | 397 |
-| Html | 4,831 | 125 | 545 | 37 |
-| CHeader | 4,210 | 2,540 | 871 | 33 |
+| C | 49,804 | 9,669 | 7,089 | 88 |
+| Python | 36,344 | 7,516 | 6,953 | 399 |
+| Html | 4,863 | 125 | 552 | 37 |
+| CHeader | 4,211 | 2,540 | 871 | 33 |
 | AssemblyGAS | 857 | 27 | 26 | 2 |
 
 ## 源代码
@@ -32,54 +32,54 @@ x install rsync
 
 ## 发布
 
-- **最新版本**: `v3.5.1` (2026-09-21)
-- **最近提交**: 2026-11-03
+- **最新版本**: `v3.5.2` (2026-11-03)
+- **最近提交**: 2026-11-04
 - **Release 含资产**: 2 个
 
 ## 流行度
 
-- **Star**: 5,335 · **Fork**: 622 · **开放 issue**: 640 · **贡献者**: 99
+- **Star**: 5,337 · **Fork**: 624 · **开放 issue**: 640 · **贡献者**: 100
 
 ## 累计统计
 
-- **发布数**: 7 · **已合并 PR**: 249 · **开放 PR**: 62 · **已关闭 issue**: 379 · **开放 issue**: 261 · **提交数**: 8018
+- **发布数**: 8 · **已合并 PR**: 253 · **开放 PR**: 59 · **已关闭 issue**: 380 · **开放 issue**: 260 · **提交数**: 8022
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 14 | 4 | 6 | 3 | 18 |
-| last60d | 2026-09-04 | 1 | 27 | 6 | 20 | 7 | 39 |
-| 90d | 2026-08-05 | 2 | 53 | 7 | 31 | 8 | 68 |
-| last180d | 2026-05-07 | 4 | 127 | 33 | 57 | 15 | 475 |
-| 360d | 2025-11-08 | 5 | 151 | 34 | 79 | 29 | 526 |
-| last720d | 2024-11-13 | 7 | 179 | 46 | 130 | 76 | 594 |
+| 30d | 2026-10-05 | 1 | 18 | 2 | 6 | 3 | 22 |
+| last60d | 2026-09-05 | 2 | 31 | 4 | 21 | 6 | 43 |
+| 90d | 2026-08-06 | 3 | 57 | 5 | 32 | 7 | 72 |
+| last180d | 2026-05-08 | 5 | 131 | 30 | 58 | 14 | 479 |
+| 360d | 2025-11-09 | 6 | 155 | 31 | 80 | 28 | 530 |
+| last720d | 2024-11-14 | 8 | 183 | 43 | 131 | 75 | 597 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [rsync-3.5.1.tar.gz](https://github.com/RsyncProject/rsync/releases/download/v3.5.1/rsync-3.5.1.tar.gz) | 1.8 MiB | `native/unknown` |
-| [rsync-3.5.1.tar.gz.asc](https://github.com/RsyncProject/rsync/releases/download/v3.5.1/rsync-3.5.1.tar.gz.asc) | 273 B | `other` |
+| [rsync-3.5.2.tar.gz](https://github.com/RsyncProject/rsync/releases/download/v3.5.2/rsync-3.5.2.tar.gz) | 1.9 MiB | `native/unknown` |
+| [rsync-3.5.2.tar.gz.asc](https://github.com/RsyncProject/rsync/releases/download/v3.5.2/rsync-3.5.2.tar.gz.asc) | 273 B | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/rsync) 上共有 **368** 个发行版报告此项目。**70** 个 ✅ 已是最新上游版本，**218** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/rsync) 上共有 **369** 个发行版报告此项目。**8** 个 ✅ 已是最新上游版本，**277** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `3.5.1` | ✅ latest |
-| Debian 14 | `3.5.1` | ✅ latest |
-| Debian 13 | `3.5.0` | ⚠️ outdated |
+| Debian unstable | `3.5.1` | ⚠️ outdated |
+| Debian 14 | `3.5.1` | ⚠️ outdated |
+| Debian 13 | `3.4.1` | 🪦 legacy |
 | Ubuntu 26.04 LTS | `3.4.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.2.7` | ⚠️ outdated |
-| Arch | `3.5.1` | ✅ latest |
-| Homebrew | `3.5.1` | ✅ latest |
-| Fedora rawhide | `3.5.1` | ✅ latest |
+| Arch | `3.5.2` | ✅ latest |
+| Homebrew | `3.5.2` | ✅ latest |
+| Fedora rawhide | `3.5.1` | ⚠️ outdated |
 | Nix unstable | `3.5.0` | ⚠️ outdated |
-| Void | `3.5.1` | ✅ latest |
-| Alpine edge | `3.5.1` | ✅ latest |
-| openSUSE Tumbleweed | `3.5.1` | ✅ latest |
+| Void | `3.5.1` | ⚠️ outdated |
+| Alpine edge | `3.5.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.5.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -90,4 +90,4 @@ rsync 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261103.yml` · 2026-11-03T07:41:47Z._
+_数据快照: `data/card/261104.yml` · 2026-11-04T07:10:53Z._
