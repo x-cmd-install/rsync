@@ -38,22 +38,22 @@ x install rsync
 
 ## 流行度
 
-- **Star**: 5,343 · **Fork**: 624 · **开放 issue**: 641 · **贡献者**: 100
+- **Star**: 5,346 · **Fork**: 624 · **开放 issue**: 642 · **贡献者**: 100
 
 ## 累计统计
 
-- **发布数**: 8 · **已合并 PR**: 253 · **开放 PR**: 60 · **已关闭 issue**: 380 · **开放 issue**: 261 · **提交数**: 8022
+- **发布数**: 8 · **已合并 PR**: 253 · **开放 PR**: 60 · **已关闭 issue**: 380 · **开放 issue**: 262 · **提交数**: 8022
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 1 | 18 | 3 | 5 | 3 | 22 |
-| last60d | 2026-09-06 | 2 | 31 | 5 | 20 | 7 | 43 |
-| 90d | 2026-08-07 | 3 | 57 | 6 | 32 | 8 | 72 |
-| last180d | 2026-05-09 | 5 | 131 | 31 | 58 | 15 | 479 |
-| 360d | 2025-11-10 | 6 | 155 | 32 | 80 | 29 | 530 |
-| last720d | 2024-11-15 | 8 | 183 | 44 | 131 | 76 | 594 |
+| 30d | 2026-10-07 | 1 | 17 | 3 | 4 | 4 | 22 |
+| last60d | 2026-09-07 | 2 | 31 | 5 | 19 | 8 | 43 |
+| 90d | 2026-08-08 | 3 | 57 | 6 | 32 | 9 | 72 |
+| last180d | 2026-05-10 | 5 | 131 | 31 | 58 | 16 | 479 |
+| 360d | 2025-11-11 | 6 | 155 | 32 | 80 | 30 | 530 |
+| last720d | 2024-11-16 | 8 | 183 | 44 | 130 | 77 | 594 |
 
 ## Release 资产
 
@@ -64,13 +64,13 @@ x install rsync
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/rsync) 上共有 **372** 个发行版报告此项目。**29** 个 ✅ 已是最新上游版本，**259** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/rsync) 上共有 **372** 个发行版报告此项目。**39** 个 ✅ 已是最新上游版本，**249** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
 | Debian unstable | `3.5.2` | ✅ latest |
 | Debian 14 | `3.5.1` | ⚠️ outdated |
-| Debian 13 | `3.4.1` | 🪦 legacy |
+| Debian 13 | `3.5.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `3.4.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.2.7` | ⚠️ outdated |
 | Arch | `3.5.2` | ✅ latest |
@@ -78,7 +78,7 @@ x install rsync
 | Fedora rawhide | `3.5.1` | ⚠️ outdated |
 | Nix unstable | `3.5.0` | ⚠️ outdated |
 | Void | `3.5.1` | ⚠️ outdated |
-| Alpine edge | `3.5.1` | ⚠️ outdated |
+| Alpine edge | `3.5.2` | ✅ latest |
 | openSUSE Tumbleweed | `3.5.1` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -90,4 +90,4 @@ rsync 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261105.yml` · 2026-11-05T07:31:54Z._
+_数据快照: `data/card/261106.yml` · 2026-11-06T07:28:45Z._
