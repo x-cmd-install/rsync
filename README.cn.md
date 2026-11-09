@@ -38,7 +38,7 @@ x install rsync
 
 ## 流行度
 
-- **Star**: 5,352 · **Fork**: 622 · **开放 issue**: 642 · **贡献者**: 100
+- **Star**: 5,355 · **Fork**: 624 · **开放 issue**: 642 · **贡献者**: 100
 
 ## 累计统计
 
@@ -48,12 +48,12 @@ x install rsync
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 1 | 17 | 4 | 4 | 3 | 15 |
-| last60d | 2026-09-09 | 2 | 30 | 7 | 18 | 7 | 43 |
-| 90d | 2026-08-10 | 3 | 56 | 8 | 33 | 8 | 58 |
-| last180d | 2026-05-12 | 5 | 132 | 32 | 59 | 15 | 476 |
-| 360d | 2025-11-13 | 6 | 156 | 34 | 81 | 29 | 531 |
-| last720d | 2024-11-18 | 8 | 184 | 46 | 130 | 76 | 595 |
+| 30d | 2026-10-10 | 1 | 15 | 4 | 4 | 3 | 15 |
+| last60d | 2026-09-10 | 2 | 30 | 7 | 18 | 7 | 43 |
+| 90d | 2026-08-11 | 3 | 56 | 8 | 33 | 8 | 58 |
+| last180d | 2026-05-13 | 5 | 132 | 32 | 59 | 15 | 476 |
+| 360d | 2025-11-14 | 6 | 156 | 34 | 81 | 29 | 531 |
+| last720d | 2024-11-19 | 8 | 183 | 46 | 130 | 76 | 595 |
 
 ## Release 资产
 
@@ -61,6 +61,25 @@ x install rsync
 |------|-----:|----------|
 | [rsync-3.5.2.tar.gz](https://github.com/RsyncProject/rsync/releases/download/v3.5.2/rsync-3.5.2.tar.gz) | 1.9 MiB | `native/unknown` |
 | [rsync-3.5.2.tar.gz.asc](https://github.com/RsyncProject/rsync/releases/download/v3.5.2/rsync-3.5.2.tar.gz.asc) | 273 B | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/rsync) 上共有 **375** 个发行版报告此项目。**70** 个 ✅ 已是最新上游版本，**219** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `3.5.2` | ✅ latest |
+| Debian 14 | `3.5.1` | ⚠️ outdated |
+| Debian 13 | `3.5.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.4.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.2.7` | ⚠️ outdated |
+| Arch | `3.5.2` | ✅ latest |
+| Homebrew | `3.5.2` | ✅ latest |
+| Fedora rawhide | `3.5.2` | ✅ latest |
+| Nix unstable | `3.5.0` | ⚠️ outdated |
+| Void | `3.5.1` | ⚠️ outdated |
+| Alpine edge | `3.5.2` | ✅ latest |
+| openSUSE Tumbleweed | `3.5.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -71,4 +90,4 @@ rsync 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261108.yml` · 2026-11-08T06:43:17Z._
+_数据快照: `data/card/261109.yml` · 2026-11-09T07:18:58Z._
