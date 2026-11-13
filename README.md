@@ -14,12 +14,12 @@ x install rsync
 
 ## Code insight
 
-Total: **99,577** lines of code across **568** files in the top 5 languages.
+Total: **99,593** lines of code across **568** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 50,108 | 9,672 | 7,109 | 91 |
-| Python | 36,807 | 7,529 | 7,023 | 405 |
+| Python | 36,823 | 7,528 | 7,021 | 405 |
 | Html | 4,863 | 125 | 552 | 37 |
 | CHeader | 4,211 | 2,540 | 871 | 33 |
 | AssemblyGAS | 857 | 27 | 26 | 2 |
@@ -33,27 +33,27 @@ Total: **99,577** lines of code across **568** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v3.5.2` (2026-11-03)
-- **Last commit**: 2026-11-11
+- **Last commit**: 2026-11-12
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,362 · **Forks**: 628 · **Open issues**: 647 · **Contributors**: 100
+- **Stars**: 5,366 · **Forks**: 629 · **Open issues**: 647 · **Contributors**: 100
 
 ## Totals (cumulative)
 
-- **Releases**: 8 · **Merged PRs**: 258 · **Open PRs**: 64 · **Closed issues**: 382 · **Open issues**: 265 · **Commits**: 8030
+- **Releases**: 8 · **Merged PRs**: 259 · **Open PRs**: 65 · **Closed issues**: 383 · **Open issues**: 264 · **Commits**: 8028
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 1 | 15 | 7 | 4 | 6 | 22 |
-| last60d | 2026-09-13 | 2 | 33 | 10 | 19 | 10 | 50 |
-| 90d | 2026-08-14 | 2 | 51 | 10 | 28 | 12 | 65 |
-| last180d | 2026-05-16 | 5 | 136 | 34 | 60 | 19 | 483 |
-| 360d | 2025-11-17 | 6 | 160 | 36 | 82 | 33 | 538 |
-| last720d | 2024-11-22 | 8 | 187 | 48 | 128 | 79 | 594 |
+| 30d | 2026-10-14 | 1 | 16 | 8 | 4 | 6 | 20 |
+| last60d | 2026-09-14 | 2 | 33 | 11 | 19 | 9 | 48 |
+| 90d | 2026-08-15 | 2 | 49 | 11 | 29 | 11 | 63 |
+| last180d | 2026-05-17 | 5 | 137 | 35 | 61 | 18 | 481 |
+| 360d | 2025-11-18 | 6 | 161 | 37 | 83 | 32 | 536 |
+| last720d | 2024-11-23 | 8 | 188 | 49 | 129 | 78 | 592 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for rsync lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T08:33:46Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T07:42:11Z._
