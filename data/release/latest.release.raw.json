@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1977884,
       "digest": "sha256:a10d591825251e070f74c98df3daad195def4ed81b4a2de16169026aea33f6c8",
-      "download_count": 3549,
+      "download_count": 3872,
       "created_at": "2026-11-03T21:20:16Z",
       "updated_at": "2026-11-03T21:20:19Z",
       "browser_download_url": "https://github.com/RsyncProject/rsync/releases/download/v3.5.2/rsync-3.5.2.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 273,
       "digest": "sha256:2979e876bd8b75c1fe36da470a7ec6c50672c2e3787a0bdc48ebf52e99e07044",
-      "download_count": 111,
+      "download_count": 115,
       "created_at": "2026-11-03T21:20:14Z",
       "updated_at": "2026-11-03T21:20:16Z",
       "browser_download_url": "https://github.com/RsyncProject/rsync/releases/download/v3.5.2/rsync-3.5.2.tar.gz.asc"
@@ -114,14 +114,14 @@
   "body": "This release fixes CVE-2026-119741 and other issues found since 3.5.1, and adds process-priority controls. For details, see https://download.samba.org/pub/rsync/NEWS#3.5.2\r\n\r\nFull changelog: https://github.com/RsyncProject/rsync/compare/v3.5.1...v3.5.2",
   "reactions": {
     "url": "https://api.github.com/repos/RsyncProject/rsync/releases/433229702/reactions",
-    "total_count": 11,
+    "total_count": 12,
     "+1": 4,
     "-1": 0,
     "laugh": 0,
     "hooray": 1,
     "confused": 0,
     "heart": 5,
-    "rocket": 1,
+    "rocket": 2,
     "eyes": 0
   }
 }
