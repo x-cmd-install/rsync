@@ -1,76 +1,3 @@
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.2.3
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: slackware_15_0
-  subrepo: patches
-  binname: rsync
-  visiblename: rsync
-  version: 3.5.2
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware_current
-  subrepo: slackware
-  binname: rsync
-  visiblename: rsync
-  version: 3.5.2
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_15_0
-  subrepo: patches
-  binname: rsync
-  visiblename: rsync
-  version: 3.5.2
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: rsync
-  visiblename: rsync
-  version: 3.5.2
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: aix_osp
-  srcname: rsync
-  visiblename: rsync
-  version: 3.0.9
-  origversion: 3.0.9-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: rsync_64
-  visiblename: rsync_64
-  version: 3.0.9
-  origversion: 3.0.9-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: rsync_64
-  visiblename: rsync_64
-  version: 3.1.0
-  origversion: 3.1.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: rsync
-  visiblename: rsync
-  version: 3.1.3
-  origversion: 3.1.3-1
-  status: outdated
-  vulnerable: true
 - repo: aerynos
   srcname: rsync
   visiblename: rsync
@@ -80,266 +7,6 @@
   summary: File transfer program to keep remote files in sync.
   licenses:
     - GPL-3.0+
-- repo: alpine_3_21
-  subrepo: main
-  srcname: rsync
-  binname: rrsync
-  visiblename: rrsync
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: rsync
-  binname: rsync-doc
-  visiblename: rsync-doc
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: rsync
-  binname: rsync-openrc
-  visiblename: rsync-openrc
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: rsync
-  binname: rrsync
-  visiblename: rrsync
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: rsync
-  binname: rsync-doc
-  visiblename: rsync-doc
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: rsync
-  binname: rsync-openrc
-  visiblename: rsync-openrc
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: rsync
-  binname: rrsync
-  visiblename: rrsync
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: rsync
-  binname: rsync-doc
-  visiblename: rsync-doc
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: rsync
-  binname: rsync-openrc
-  visiblename: rsync-openrc
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: rsync
-  binname: rrsync
-  visiblename: rrsync
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: rsync
-  binname: rsync-doc
-  visiblename: rsync-doc
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: rsync
-  binname: rsync-openrc
-  visiblename: rsync-openrc
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: main
-  srcname: rsync
-  binname: rrsync
-  visiblename: rrsync
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: main
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: main
-  srcname: rsync
-  binname: rsync-doc
-  visiblename: rsync-doc
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: main
-  srcname: rsync
-  binname: rsync-openrc
-  visiblename: rsync-openrc
-  version: 3.5.2
-  origversion: 3.5.2-r1
-  status: newest
-  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
 - repo: aosc
   srcname: app-network/rsync
   binname: rsync
@@ -352,6 +19,266 @@
     - fallback-mnt-aosc@repology
   categories:
     - net
+- repo: alpine_3_21
+  subrepo: main
+  srcname: rsync
+  binname: rrsync
+  visiblename: rrsync
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: rsync
+  binname: rsync-doc
+  visiblename: rsync-doc
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: rsync
+  binname: rsync-openrc
+  visiblename: rsync-openrc
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: rsync
+  binname: rrsync
+  visiblename: rrsync
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: rsync
+  binname: rsync-doc
+  visiblename: rsync-doc
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: rsync
+  binname: rsync-openrc
+  visiblename: rsync-openrc
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: rsync
+  binname: rrsync
+  visiblename: rrsync
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: rsync
+  binname: rsync-doc
+  visiblename: rsync-doc
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: rsync
+  binname: rsync-openrc
+  visiblename: rsync-openrc
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: rsync
+  binname: rrsync
+  visiblename: rrsync
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: rsync
+  binname: rsync-doc
+  visiblename: rsync-doc
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: rsync
+  binname: rsync-openrc
+  visiblename: rsync-openrc
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: rsync
+  binname: rrsync
+  visiblename: rrsync
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: rsync
+  binname: rsync-doc
+  visiblename: rsync-doc
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: rsync
+  binname: rsync-openrc
+  visiblename: rsync-openrc
+  version: 3.5.2
+  origversion: 3.5.2-r1
+  status: newest
+  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
 - repo: arch
   subrepo: extra
   srcname: rsync
@@ -699,15 +626,6 @@
     - pyrox@pyrox.dev
   licenses:
     - GPL-3.0-or-later
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: rsync
-  visiblename: rsync
-  version: 3.5.2
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
 - repo: openbsd
   srcname: net/rsync
   binname: rsync
@@ -775,20 +693,6 @@
     - GPLv3+
   categories:
     - Networking/File transfer
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rsync
-  binnames:
-    - rsync
-  visiblename: rsync
-  version: 3.5.2
-  origversion: 3.5.2+ds1-2
-  status: newest
-  maintainers:
-    - samueloph@debian.org
-    - paul@debian.org
-  categories:
-    - net
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: rsync
@@ -872,17 +776,6 @@
     - m.storchak@gmail.com
   categories:
     - net
-- repo: parabola
-  subrepo: extra
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.5.2
-  origversion: 3.5.2-1
-  status: newest
-  summary: A fast and versatile file copying tool for remote and local files
-  licenses:
-    - GPL-3.0-or-later
 - repo: pisi_main
   subrepo: main
   srcname: network/share/rsync
@@ -951,6 +844,20 @@
   version: 3.5.2
   origversion: 3.5.2-1
   status: newest
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rsync
+  binnames:
+    - rsync
+  visiblename: rsync
+  version: 3.5.2
+  origversion: 3.5.2+ds1-2
+  status: newest
+  maintainers:
+    - samueloph@debian.org
+    - paul@debian.org
+  categories:
+    - net
 - repo: ravenports
   srcname: rsync
   binname: rsync
@@ -963,16 +870,6 @@
     - fallback-mnt-ravenports@repology
   categories:
     - net
-- repo: pclinuxos
-  srcname: rsync
-  visiblename: rsync
-  version: 3.4.1
-  origversion: 3.4.1-1pclos2025
-  status: outdated
-  summary: A program for synchronizing files over a network
-  categories:
-    - Networking/File transfer
-  vulnerable: true
 - repo: serenityos
   srcname: rsync
   visiblename: rsync
@@ -993,6 +890,51 @@
     - uglyside@yandex.ru
   licenses:
     - GPL-3
+- repo: slackware_15_0
+  subrepo: patches
+  binname: rsync
+  visiblename: rsync
+  version: 3.5.2
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware_current
+  subrepo: slackware
+  binname: rsync
+  visiblename: rsync
+  version: 3.5.2
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: patches
+  binname: rsync
+  visiblename: rsync
+  version: 3.5.2
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: rsync
+  visiblename: rsync
+  version: 3.5.2
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: rsync
+  visiblename: rsync
+  version: 3.5.2
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
 - repo: solus
   srcname: rsync
   binname: rsync
@@ -1132,52 +1074,219 @@
   origversion: null
   status: newest
   summary: file synchronization protocol and software
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.1.2
-  origversion: null
+- repo: aix_osp
+  srcname: rsync-64bit
+  visiblename: rsync-64bit
+  version: 3.0.6
+  origversion: 3.0.6-1
   status: legacy
   vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
+- repo: aix_osp
   srcname: rsync
-  binname: rsync
   visiblename: rsync
-  version: 3.1.2
-  origversion: null
+  version: 3.0.7
+  origversion: 3.0.7-1
   status: legacy
   vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: rsync
-  binname: rsync
+  binnames:
+    - rsync
+  visiblename: rsync
+  version: 3.5.0
+  origversion: 3.5.0+ds1-0+deb13u2
+  status: outdated
+  maintainers:
+    - samueloph@debian.org
+    - paul@debian.org
+  categories:
+    - net
+  vulnerable: true
+- repo: aixtoolbox
+  srcname: rsync
   visiblename: rsync
   version: 3.5.1
+  origversion: 3.5.1-1
+  status: outdated
+  summary: A program for synchronizing files over a network.
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: rsync
+  visiblename: rsync
+  version: 3.0.6
+  origversion: 3.0.6-12.17.amzn1
+  status: outdated
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: kali_rolling
+  subrepo: main
+  srcname: rsync
+  binnames:
+    - rsync
+  visiblename: rsync
+  version: 3.5.1
+  origversion: 3.5.1+ds1-2
+  status: outdated
+  maintainers:
+    - samueloph@debian.org
+    - paul@debian.org
+  categories:
+    - net
+  vulnerable: true
+- repo: pardus_21
+  subrepo: main
+  srcname: rsync
+  binnames:
+    - rsync
+  visiblename: rsync
+  version: 3.2.3
+  origversion: 3.2.3-4+deb11u1
+  status: outdated
+  maintainers:
+    - paul@debian.org
+    - samueloph@debian.org
+  categories:
+    - net
+  vulnerable: true
+- repo: pardus_21
+  subrepo: updates/main
+  srcname: rsync
+  binnames:
+    - rsync
+  visiblename: rsync
+  version: 3.2.3
+  origversion: 3.2.3-4+deb11u4
+  status: outdated
+  maintainers:
+    - paul@debian.org
+    - samueloph@debian.org
+  categories:
+    - net
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot/main
+  srcname: rsync
+  binnames:
+    - rsync
+  visiblename: rsync
+  version: 3.5.0
+  origversion: 3.5.0+ds1-0+deb13u2
+  status: outdated
+  maintainers:
+    - samueloph@debian.org
+    - paul@debian.org
+  categories:
+    - net
+  vulnerable: true
+- repo: pclinuxos
+  srcname: rsync
+  visiblename: rsync
+  version: 3.4.1
+  origversion: 3.4.1-1pclos2025
+  status: outdated
+  summary: A program for synchronizing files over a network
+  categories:
+    - Networking/File transfer
+  vulnerable: true
+- repo: crux_37
+  subrepo: core
+  srcname: rsync
+  visiblename: rsync
+  version: 3.4.1
   origversion: null
   status: outdated
-  vulnerable: true
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: rsync
-  visiblename: rsync
-  version: 3.2.3
-  origversion: null
-  status: legacy
+  summary: Utility for incremental file transfers over networks
   maintainers:
-    - volkerdi@slackware.com
+    - core-ports@crux.nu
   vulnerable: true
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: rsync
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: rsync
   visiblename: rsync
-  version: 3.2.3
-  origversion: null
-  status: legacy
+  version: 3.1.3
+  origversion: 3.1.3-19.el8_7.1
+  status: outdated
+  summary: A program for synchronizing files over a network
   maintainers:
-    - volkerdi@slackware.com
+    - packager@almalinux.org
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: almalinux_9
+  subrepo: BaseOS
+  srcname: rsync
+  binnames:
+    - rsync-debugsource
+    - rsync-debuginfo
+    - rsync-rrsync
+    - rsync-daemon
+    - rsync
+  visiblename: rsync
+  version: 3.2.7
+  origversion: 3.2.7-1.el9_8
+  status: outdated
+  summary: A program for synchronizing files over a network
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: rsync
+  visiblename: rsync
+  version: 3.1.2
+  origversion: 3.1.2-11.amzn2.0.7
+  status: outdated
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: amazon_2
+  srcname: rsync
+  visiblename: rsync
+  version: 3.1.2
+  origversion: 3.1.2-11.amzn2.0.8
+  status: outdated
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: aix_osp
+  srcname: rsync
+  visiblename: rsync
+  version: 3.1.0
+  origversion: 3.1.0-1
+  status: legacy
+  vulnerable: true
+- repo: amazon_2
+  srcname: rsync
+  visiblename: rsync
+  version: 3.1.2
+  origversion: 3.1.2-11.amzn2.0.9
+  status: outdated
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
   vulnerable: true
 - repo: aix_osp
   srcname: rsync_64
@@ -1203,6 +1312,20 @@
 - repo: aix_osp
   srcname: rsync
   visiblename: rsync
+  version: 3.0.9
+  origversion: 3.0.9-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: rsync_64
+  visiblename: rsync_64
+  version: 3.0.9
+  origversion: 3.0.9-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: rsync_64
+  visiblename: rsync_64
   version: 3.1.0
   origversion: 3.1.0-1
   status: legacy
@@ -1214,11 +1337,12 @@
   origversion: 3.1.1-1
   status: legacy
   vulnerable: true
-- repo: amazon_2
+- repo: amazon_1
+  subrepo: updates
   srcname: rsync
   visiblename: rsync
-  version: 3.1.2
-  origversion: 3.1.2-11.amzn2.0.5
+  version: 3.0.6
+  origversion: 3.0.6-12.14.amzn1
   status: outdated
   summary: A program for synchronizing files over a network
   licenses:
@@ -1240,12 +1364,18 @@
   origversion: 3.1.2-1
   status: legacy
   vulnerable: true
-- repo: aix_osp
-  srcname: rsync_64
-  visiblename: rsync_64
-  version: 3.1.3
-  origversion: 3.1.3-1
+- repo: amazon_1
+  subrepo: updates
+  srcname: rsync
+  visiblename: rsync
+  version: 3.0.6
+  origversion: 3.0.6-12.15.amzn1
   status: outdated
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
   vulnerable: true
 - repo: aix_osp
   srcname: rsync_64
@@ -1254,28 +1384,28 @@
   origversion: 3.1.2-1
   status: legacy
   vulnerable: true
-- repo: aixtoolbox
-  srcname: rsync
-  visiblename: rsync
-  version: 3.5.1
-  origversion: 3.5.1-1
-  status: outdated
-  summary: A program for synchronizing files over a network.
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
+- repo: aix_osp
   srcname: rsync
   visiblename: rsync
   version: 3.1.3
-  origversion: 3.1.3-19.el8_7.1
+  origversion: 3.1.3-1
+  status: outdated
+  vulnerable: true
+- repo: aix_osp
+  srcname: rsync_64
+  visiblename: rsync_64
+  version: 3.1.3
+  origversion: 3.1.3-1
+  status: outdated
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: rsync
+  visiblename: rsync
+  version: 3.0.6
+  origversion: 3.0.6-12.16.amzn1
   status: outdated
   summary: A program for synchronizing files over a network
-  maintainers:
-    - packager@almalinux.org
   licenses:
     - GPLv3+
   categories:
@@ -1285,7 +1415,7 @@
   srcname: rsync
   visiblename: rsync
   version: 3.1.2
-  origversion: 3.1.2-11.amzn2.0.6
+  origversion: 3.1.2-4.amzn2
   status: outdated
   summary: A program for synchronizing files over a network
   licenses:
@@ -1299,6 +1429,33 @@
   visiblename: rsync
   version: 3.1.3
   origversion: 3.1.3-20.el8_10
+  status: outdated
+  summary: A program for synchronizing files over a network
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: amazon_2
+  srcname: rsync
+  visiblename: rsync
+  version: 3.0.9
+  origversion: 3.0.9-18.amzn2
+  status: legacy
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: rsync
+  visiblename: rsync
+  version: 3.1.3
+  origversion: 3.1.3-24.el8_10
   status: outdated
   summary: A program for synchronizing files over a network
   maintainers:
@@ -1338,16 +1495,13 @@
   categories:
     - Applications/Internet
   vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
+- repo: amazon_2
   srcname: rsync
   visiblename: rsync
-  version: 3.1.3
-  origversion: 3.1.3-24.el8_10
+  version: 3.1.2
+  origversion: 3.1.2-11.amzn2.0.1
   status: outdated
   summary: A program for synchronizing files over a network
-  maintainers:
-    - packager@almalinux.org
   licenses:
     - GPLv3+
   categories:
@@ -1368,17 +1522,33 @@
   categories:
     - Applications/Internet
   vulnerable: true
-- repo: amazon_2
+- repo: adelie_current
+  subrepo: system
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.2.7
+  origversion: 3.2.7-r0
+  status: legacy
+  summary: File transfer program to keep remote files in sync
+  maintainers:
+    - sheila@vulpine.house
+  licenses:
+    - GPL-3.0+
+  vulnerable: true
+- repo: aix_osp
   srcname: rsync
   visiblename: rsync
-  version: 3.1.2
-  origversion: 3.1.2-11.amzn2.0.4
-  status: outdated
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
+  version: 3.0.6
+  origversion: 3.0.6-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: rsync_64
+  visiblename: rsync_64
+  version: 3.0.6
+  origversion: 3.0.6-2
+  status: legacy
   vulnerable: true
 - repo: almalinux_8
   subrepo: BaseOS
@@ -1395,187 +1565,6 @@
   categories:
     - Applications/Internet
   vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: rsync
-  binname: rrsync
-  visiblename: rrsync
-  version: 3.2.7
-  origversion: 3.2.7-r0
-  status: legacy
-  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
-  maintainers:
-    - sheila@vulpine.house
-  licenses:
-    - GPL-3.0+
-  vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.2.7
-  origversion: 3.2.7-r0
-  status: legacy
-  summary: File transfer program to keep remote files in sync
-  maintainers:
-    - sheila@vulpine.house
-  licenses:
-    - GPL-3.0+
-  vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: rsync
-  binname: rsync-dbg
-  visiblename: rsync-dbg
-  version: 3.2.7
-  origversion: 3.2.7-r0
-  status: legacy
-  summary: File transfer program to keep remote files in sync (debug symbols)
-  maintainers:
-    - sheila@vulpine.house
-  licenses:
-    - GPL-3.0+
-  vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: rsync
-  binname: rsync-doc
-  visiblename: rsync-doc
-  version: 3.2.7
-  origversion: 3.2.7-r0
-  status: legacy
-  summary: File transfer program to keep remote files in sync (documentation)
-  maintainers:
-    - sheila@vulpine.house
-  licenses:
-    - GPL-3.0+
-  vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: rsync
-  binname: rsync-openrc
-  visiblename: rsync-openrc
-  version: 3.2.7
-  origversion: 3.2.7-r0
-  status: legacy
-  summary: File transfer program to keep remote files in sync (OpenRC init scripts)
-  maintainers:
-    - sheila@vulpine.house
-  licenses:
-    - GPL-3.0+
-  vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: rsync
-  binname: rrsync
-  visiblename: rrsync
-  version: 3.4.0
-  origversion: 3.4.0-r0
-  status: legacy
-  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
-  maintainers:
-    - sheila@vulpine.house
-  licenses:
-    - GPL-3.0+
-  vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.4.0
-  origversion: 3.4.0-r0
-  status: legacy
-  summary: File transfer program to keep remote files in sync
-  maintainers:
-    - sheila@vulpine.house
-  licenses:
-    - GPL-3.0+
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: rsync
-  visiblename: rsync
-  version: 3.0.6
-  origversion: 3.0.6-12.15.amzn1
-  status: outdated
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: rsync
-  binname: rsync-dbg
-  visiblename: rsync-dbg
-  version: 3.4.0
-  origversion: 3.4.0-r0
-  status: legacy
-  summary: File transfer program to keep remote files in sync (debug symbols)
-  maintainers:
-    - sheila@vulpine.house
-  licenses:
-    - GPL-3.0+
-  vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: rsync
-  binname: rsync-doc
-  visiblename: rsync-doc
-  version: 3.4.0
-  origversion: 3.4.0-r0
-  status: legacy
-  summary: File transfer program to keep remote files in sync (documentation)
-  maintainers:
-    - sheila@vulpine.house
-  licenses:
-    - GPL-3.0+
-  vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: rsync
-  binname: rsync-openrc
-  visiblename: rsync-openrc
-  version: 3.4.0
-  origversion: 3.4.0-r0
-  status: legacy
-  summary: File transfer program to keep remote files in sync (OpenRC init scripts)
-  maintainers:
-    - sheila@vulpine.house
-  licenses:
-    - GPL-3.0+
-  vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: rsync
-  binname: rrsync
-  visiblename: rrsync
-  version: 3.4.3
-  origversion: 3.4.3-r0
-  status: legacy
-  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
-  maintainers:
-    - sheila@vulpine.house
-  licenses:
-    - GPL-3.0+
-  vulnerable: true
-- repo: adelie_current
-  subrepo: system
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.4.3
-  origversion: 3.4.3-r0
-  status: legacy
-  summary: File transfer program to keep remote files in sync
-  maintainers:
-    - sheila@vulpine.house
-  licenses:
-    - GPL-3.0+
-  vulnerable: true
 - repo: almalinux_8
   subrepo: BaseOS
   srcname: rsync
@@ -1590,6 +1579,160 @@
     - GPLv3+
   categories:
     - Applications/Internet
+  vulnerable: true
+- repo: adelie_current
+  subrepo: system
+  srcname: rsync
+  binname: rrsync
+  visiblename: rrsync
+  version: 3.2.7
+  origversion: 3.2.7-r0
+  status: legacy
+  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
+  maintainers:
+    - sheila@vulpine.house
+  licenses:
+    - GPL-3.0+
+  vulnerable: true
+- repo: adelie_current
+  subrepo: system
+  srcname: rsync
+  binname: rsync-dbg
+  visiblename: rsync-dbg
+  version: 3.2.7
+  origversion: 3.2.7-r0
+  status: legacy
+  summary: File transfer program to keep remote files in sync (debug symbols)
+  maintainers:
+    - sheila@vulpine.house
+  licenses:
+    - GPL-3.0+
+  vulnerable: true
+- repo: adelie_current
+  subrepo: system
+  srcname: rsync
+  binname: rsync-doc
+  visiblename: rsync-doc
+  version: 3.2.7
+  origversion: 3.2.7-r0
+  status: legacy
+  summary: File transfer program to keep remote files in sync (documentation)
+  maintainers:
+    - sheila@vulpine.house
+  licenses:
+    - GPL-3.0+
+  vulnerable: true
+- repo: adelie_current
+  subrepo: system
+  srcname: rsync
+  binname: rsync-openrc
+  visiblename: rsync-openrc
+  version: 3.2.7
+  origversion: 3.2.7-r0
+  status: legacy
+  summary: File transfer program to keep remote files in sync (OpenRC init scripts)
+  maintainers:
+    - sheila@vulpine.house
+  licenses:
+    - GPL-3.0+
+  vulnerable: true
+- repo: adelie_current
+  subrepo: system
+  srcname: rsync
+  binname: rrsync
+  visiblename: rrsync
+  version: 3.4.0
+  origversion: 3.4.0-r0
+  status: legacy
+  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
+  maintainers:
+    - sheila@vulpine.house
+  licenses:
+    - GPL-3.0+
+  vulnerable: true
+- repo: adelie_current
+  subrepo: system
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.4.0
+  origversion: 3.4.0-r0
+  status: legacy
+  summary: File transfer program to keep remote files in sync
+  maintainers:
+    - sheila@vulpine.house
+  licenses:
+    - GPL-3.0+
+  vulnerable: true
+- repo: adelie_current
+  subrepo: system
+  srcname: rsync
+  binname: rsync-dbg
+  visiblename: rsync-dbg
+  version: 3.4.0
+  origversion: 3.4.0-r0
+  status: legacy
+  summary: File transfer program to keep remote files in sync (debug symbols)
+  maintainers:
+    - sheila@vulpine.house
+  licenses:
+    - GPL-3.0+
+  vulnerable: true
+- repo: adelie_current
+  subrepo: system
+  srcname: rsync
+  binname: rsync-doc
+  visiblename: rsync-doc
+  version: 3.4.0
+  origversion: 3.4.0-r0
+  status: legacy
+  summary: File transfer program to keep remote files in sync (documentation)
+  maintainers:
+    - sheila@vulpine.house
+  licenses:
+    - GPL-3.0+
+  vulnerable: true
+- repo: adelie_current
+  subrepo: system
+  srcname: rsync
+  binname: rsync-openrc
+  visiblename: rsync-openrc
+  version: 3.4.0
+  origversion: 3.4.0-r0
+  status: legacy
+  summary: File transfer program to keep remote files in sync (OpenRC init scripts)
+  maintainers:
+    - sheila@vulpine.house
+  licenses:
+    - GPL-3.0+
+  vulnerable: true
+- repo: adelie_current
+  subrepo: system
+  srcname: rsync
+  binname: rrsync
+  visiblename: rrsync
+  version: 3.4.3
+  origversion: 3.4.3-r0
+  status: legacy
+  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
+  maintainers:
+    - sheila@vulpine.house
+  licenses:
+    - GPL-3.0+
+  vulnerable: true
+- repo: adelie_current
+  subrepo: system
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.4.3
+  origversion: 3.4.3-r0
+  status: legacy
+  summary: File transfer program to keep remote files in sync
+  maintainers:
+    - sheila@vulpine.house
+  licenses:
+    - GPL-3.0+
   vulnerable: true
 - repo: adelie_current
   subrepo: system
@@ -1780,220 +1923,174 @@
   origversion: 3.0.6-1
   status: legacy
   vulnerable: true
-- repo: aix_osp
+- repo: alpine_3_17
+  subrepo: main
   srcname: rsync
-  visiblename: rsync
-  version: 3.0.6
-  origversion: 3.0.6-2
-  status: legacy
+  binname: rsync-openrc
+  visiblename: rsync-openrc
+  version: 3.2.7
+  origversion: 3.2.7-r0
+  status: outdated
+  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
   vulnerable: true
-- repo: aix_osp
-  srcname: rsync_64
-  visiblename: rsync_64
-  version: 3.0.6
-  origversion: 3.0.6-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: rsync-64bit
-  visiblename: rsync-64bit
-  version: 3.0.6
-  origversion: 3.0.6-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
+- repo: alpine_3_17
+  subrepo: main
   srcname: rsync
-  visiblename: rsync
-  version: 3.0.7
-  origversion: 3.0.7-1
-  status: legacy
+  binname: rrsync
+  visiblename: rrsync
+  version: 3.2.7
+  origversion: 3.2.7-r0
+  status: outdated
+  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
   vulnerable: true
-- repo: almalinux_9
+- repo: alpine_3_17
+  subrepo: main
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.2.7
+  origversion: 3.2.7-r0
+  status: outdated
+  summary: A file transfer program to keep remote files in sync
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: rsync
+  binname: rsync-doc
+  visiblename: rsync-doc
+  version: 3.2.7
+  origversion: 3.2.7-r0
+  status: outdated
+  summary: A file transfer program to keep remote files in sync (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: rsync
+  binname: rrsync
+  visiblename: rrsync
+  version: 3.4.0
+  origversion: 3.4.0-r0
+  status: outdated
+  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.4.0
+  origversion: 3.4.0-r0
+  status: outdated
+  summary: A file transfer program to keep remote files in sync
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: rsync
+  binname: rsync-doc
+  visiblename: rsync-doc
+  version: 3.4.0
+  origversion: 3.4.0-r0
+  status: outdated
+  summary: A file transfer program to keep remote files in sync (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: rsync
+  binname: rsync-openrc
+  visiblename: rsync-openrc
+  version: 3.4.0
+  origversion: 3.4.0-r0
+  status: outdated
+  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: rsync
+  binname: rrsync
+  visiblename: rrsync
+  version: 3.4.1
+  origversion: 3.4.1-r1
+  status: outdated
+  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.4.1
+  origversion: 3.4.1-r1
+  status: outdated
+  summary: A file transfer program to keep remote files in sync
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+  vulnerable: true
+- repo: centos_stream_8
   subrepo: BaseOS
   srcname: rsync
-  binnames:
-    - rsync-debugsource
-    - rsync-debuginfo
-    - rsync-rrsync
-    - rsync-daemon
-    - rsync
   visiblename: rsync
-  version: 3.2.7
-  origversion: 3.2.7-1.el9_8
+  version: 3.1.3
+  origversion: 3.1.3-13.el8
   status: outdated
   summary: A program for synchronizing files over a network
   maintainers:
-    - packager@almalinux.org
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: rsync
-  binname: rsync-openrc
-  visiblename: rsync-openrc
-  version: 3.2.7
-  origversion: 3.2.7-r0
-  status: outdated
-  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: rsync
-  binname: rrsync
-  visiblename: rrsync
-  version: 3.2.7
-  origversion: 3.2.7-r0
-  status: outdated
-  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.2.7
-  origversion: 3.2.7-r0
-  status: outdated
-  summary: A file transfer program to keep remote files in sync
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: rsync
-  binname: rsync-doc
-  visiblename: rsync-doc
-  version: 3.2.7
-  origversion: 3.2.7-r0
-  status: outdated
-  summary: A file transfer program to keep remote files in sync (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: rsync
-  binname: rrsync
-  visiblename: rrsync
-  version: 3.4.0
-  origversion: 3.4.0-r0
-  status: outdated
-  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.4.0
-  origversion: 3.4.0-r0
-  status: outdated
-  summary: A file transfer program to keep remote files in sync
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: rsync
-  binname: rsync-doc
-  visiblename: rsync-doc
-  version: 3.4.0
-  origversion: 3.4.0-r0
-  status: outdated
-  summary: A file transfer program to keep remote files in sync (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: rsync
-  binname: rsync-openrc
-  visiblename: rsync-openrc
-  version: 3.4.0
-  origversion: 3.4.0-r0
-  status: outdated
-  summary: A file transfer program to keep remote files in sync (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: rsync
-  binname: rrsync
-  visiblename: rrsync
-  version: 3.4.1
-  origversion: 3.4.1-r1
-  status: outdated
-  summary: Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.4.1
-  origversion: 3.4.1-r1
-  status: outdated
-  summary: A file transfer program to keep remote files in sync
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: rsync
-  binname: rsync-doc
-  visiblename: rsync-doc
-  version: 3.4.1
-  origversion: 3.4.1-r1
-  status: outdated
-  summary: A file transfer program to keep remote files in sync (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-  vulnerable: true
-- repo: amazon_2
-  srcname: rsync
-  visiblename: rsync
-  version: 3.1.2
-  origversion: 3.1.2-11.amzn2.0.7
-  status: outdated
-  summary: A program for synchronizing files over a network
+    - bugs@centos.org
   licenses:
     - GPLv3+
   categories:
     - Applications/Internet
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: rsync
+  binname: rsync-doc
+  visiblename: rsync-doc
+  version: 3.4.1
+  origversion: 3.4.1-r1
+  status: outdated
+  summary: A file transfer program to keep remote files in sync (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
   vulnerable: true
 - repo: alpine_3_19
   subrepo: main
@@ -2065,59 +2162,31 @@
   licenses:
     - GPL-3.0-or-later
   vulnerable: true
-- repo: amazon_2
-  srcname: rsync
-  visiblename: rsync
-  version: 3.1.2
-  origversion: 3.1.2-11.amzn2.0.8
-  status: outdated
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: amazon_2
-  srcname: rsync
-  visiblename: rsync
-  version: 3.1.2
-  origversion: 3.1.2-11.amzn2.0.9
-  status: outdated
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: amazon_2
-  srcname: rsync
-  visiblename: rsync
-  version: 3.1.2
-  origversion: 3.1.2-4.amzn2
-  status: outdated
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: baseos
+- repo: apertis_v2023
+  subrepo: v2023/development
   srcname: rsync
   binnames:
     - rsync
-    - rsync-daemon
-    - rsync-debuginfo
-    - rsync-debugsource
   visiblename: rsync
   version: 3.2.3
-  origversion: 3.2.3-9.el9
+  origversion: 3.2.3-4+deb11u3+apertis0
   status: outdated
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
+  maintainers:
+    - paul@debian.org
+    - samueloph@debian.org
+  vulnerable: true
+- repo: apertis_v2024
+  subrepo: v2024/development
+  srcname: rsync
+  binnames:
+    - rsync
+  visiblename: rsync
+  version: 3.2.7
+  origversion: 3.2.7-1+deb12u6+apertis0
+  status: outdated
+  maintainers:
+    - paul@debian.org
+    - samueloph@debian.org
   vulnerable: true
 - repo: alt_p11
   srcname: rsync
@@ -2168,69 +2237,6 @@
   categories:
     - Applications/Internet
   vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: rsync
-  visiblename: rsync
-  version: 3.0.6
-  origversion: 3.0.6-12.14.amzn1
-  status: outdated
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: rsync
-  visiblename: rsync
-  version: 3.0.6
-  origversion: 3.0.6-12.16.amzn1
-  status: outdated
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: rsync
-  visiblename: rsync
-  version: 3.0.6
-  origversion: 3.0.6-12.17.amzn1
-  status: outdated
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: amazon_2
-  srcname: rsync
-  visiblename: rsync
-  version: 3.0.9
-  origversion: 3.0.9-18.amzn2
-  status: legacy
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: amazon_2
-  srcname: rsync
-  visiblename: rsync
-  version: 3.1.2
-  origversion: 3.1.2-11.amzn2.0.1
-  status: outdated
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
 - repo: amazon_2
   srcname: rsync
   visiblename: rsync
@@ -2255,31 +2261,41 @@
   categories:
     - Applications/Internet
   vulnerable: true
-- repo: apertis_v2023
-  subrepo: v2023/development
+- repo: amazon_2
   srcname: rsync
-  binnames:
-    - rsync
   visiblename: rsync
-  version: 3.2.3
-  origversion: 3.2.3-4+deb11u3+apertis0
+  version: 3.1.2
+  origversion: 3.1.2-11.amzn2.0.4
   status: outdated
-  maintainers:
-    - paul@debian.org
-    - samueloph@debian.org
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
   vulnerable: true
-- repo: apertis_v2024
-  subrepo: v2024/development
+- repo: amazon_2
   srcname: rsync
-  binnames:
-    - rsync
   visiblename: rsync
-  version: 3.2.7
-  origversion: 3.2.7-1+deb12u6+apertis0
+  version: 3.1.2
+  origversion: 3.1.2-11.amzn2.0.5
   status: outdated
-  maintainers:
-    - paul@debian.org
-    - samueloph@debian.org
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: amazon_2
+  srcname: rsync
+  visiblename: rsync
+  version: 3.1.2
+  origversion: 3.1.2-11.amzn2.0.6
+  status: outdated
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPLv3+
+  categories:
+    - Applications/Internet
   vulnerable: true
 - repo: apertis_v2025
   subrepo: v2025/development
@@ -2407,21 +2423,6 @@
   srcname: rsync
   visiblename: rsync
   version: 3.1.3
-  origversion: 3.1.3-13.el8
-  status: outdated
-  summary: A program for synchronizing files over a network
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - GPLv3+
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: centos_stream_8
-  subrepo: BaseOS
-  srcname: rsync
-  visiblename: rsync
-  version: 3.1.3
   origversion: 3.1.3-14.el8.2
   status: outdated
   summary: A program for synchronizing files over a network
@@ -2446,6 +2447,15 @@
     - GPLv3+
   categories:
     - Applications/Internet
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.1.2
+  origversion: null
+  status: legacy
   vulnerable: true
 - repo: centos_stream_8
   subrepo: BaseOS
@@ -2654,15 +2664,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: rsync
-  binname: rsync
-  visiblename: rsync
-  version: 3.1.2
-  origversion: null
-  status: legacy
-  vulnerable: true
 - repo: centos_stream_10
   subrepo: BaseOS
   srcname: rsync
@@ -2767,17 +2768,6 @@
   origversion: null
   status: outdated
   vulnerable: true
-- repo: crux_37
-  subrepo: core
-  srcname: rsync
-  visiblename: rsync
-  version: 3.4.1
-  origversion: null
-  status: outdated
-  summary: Utility for incremental file transfers over networks
-  maintainers:
-    - core-ports@crux.nu
-  vulnerable: true
 - repo: cygwin
   srcname: rsync
   binname: rsync
@@ -2805,21 +2795,6 @@
     - Debug
   vulnerable: true
 - repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: rsync
-  binnames:
-    - rsync
-  visiblename: rsync
-  version: 3.2.3
-  origversion: 3.2.3-4+deb11u4
-  status: outdated
-  maintainers:
-    - paul@debian.org
-    - samueloph@debian.org
-  categories:
-    - net
-  vulnerable: true
-- repo: debian_11
   subrepo: bullseye/main
   srcname: rsync
   binnames:
@@ -2834,23 +2809,20 @@
   categories:
     - net
   vulnerable: true
-- repo: eurolinux_9
-  subrepo: baseos
+- repo: debian_11
+  subrepo: bullseye-security/main
   srcname: rsync
   binnames:
     - rsync
-    - rsync-daemon
-    - rsync-debuginfo
-    - rsync-debugsource
   visiblename: rsync
   version: 3.2.3
-  origversion: 3.2.3-19.el9
+  origversion: 3.2.3-4+deb11u4
   status: outdated
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPLv3+
+  maintainers:
+    - paul@debian.org
+    - samueloph@debian.org
   categories:
-    - Unspecified
+    - net
   vulnerable: true
 - repo: debian_12
   subrepo: bookworm-security/main
@@ -2883,21 +2855,6 @@
     - net
   vulnerable: true
 - repo: debian_13
-  subrepo: trixie-security/main
-  srcname: rsync
-  binnames:
-    - rsync
-  visiblename: rsync
-  version: 3.5.0
-  origversion: 3.5.0+ds1-0+deb13u1
-  status: outdated
-  maintainers:
-    - samueloph@debian.org
-    - paul@debian.org
-  categories:
-    - net
-  vulnerable: true
-- repo: debian_13
   subrepo: trixie/main
   srcname: rsync
   binnames:
@@ -2906,6 +2863,21 @@
   version: 3.4.1
   origversion: 3.4.1+ds1-5+deb13u4
   status: legacy
+  maintainers:
+    - samueloph@debian.org
+    - paul@debian.org
+  categories:
+    - net
+  vulnerable: true
+- repo: debian_13
+  subrepo: trixie-security/main
+  srcname: rsync
+  binnames:
+    - rsync
+  visiblename: rsync
+  version: 3.5.0
+  origversion: 3.5.0+ds1-0+deb13u1
+  status: outdated
   maintainers:
     - samueloph@debian.org
     - paul@debian.org
@@ -3113,6 +3085,42 @@
     - rsync-debugsource
   visiblename: rsync
   version: 3.2.3
+  origversion: 3.2.3-19.el9
+  status: outdated
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_9
+  subrepo: baseos
+  srcname: rsync
+  binnames:
+    - rsync
+    - rsync-daemon
+    - rsync-debuginfo
+    - rsync-debugsource
+  visiblename: rsync
+  version: 3.2.3
+  origversion: 3.2.3-9.el9
+  status: outdated
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_9
+  subrepo: baseos
+  srcname: rsync
+  binnames:
+    - rsync
+    - rsync-daemon
+    - rsync-debuginfo
+    - rsync-debugsource
+  visiblename: rsync
+  version: 3.2.3
   origversion: 3.2.3-9.el9_0.1
   status: outdated
   summary: A program for synchronizing files over a network
@@ -3139,23 +3147,23 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: fedora_39
-  subrepo: release
+- repo: hpux_11_31
+  subrepo: ia64_64
   srcname: rsync
-  binnames:
-    - rsync
-    - rsync-daemon
-    - rsync-debuginfo
-    - rsync-debugsource
+  binname: rsync
   visiblename: rsync
-  version: 3.2.7
-  origversion: 3.2.7-5.fc39
+  version: 3.2.3
+  origversion: null
   status: legacy
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.5.1
+  origversion: null
+  status: outdated
   vulnerable: true
 - repo: fedora_39
   subrepo: updates
@@ -3169,6 +3177,24 @@
   version: 3.3.0
   origversion: 3.3.0-1.fc39
   status: outdated
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_39
+  subrepo: release
+  srcname: rsync
+  binnames:
+    - rsync
+    - rsync-daemon
+    - rsync-debuginfo
+    - rsync-debugsource
+  visiblename: rsync
+  version: 3.2.7
+  origversion: 3.2.7-5.fc39
+  status: legacy
   summary: A program for synchronizing files over a network
   licenses:
     - GPL-3.0-or-later
@@ -3212,22 +3238,6 @@
     - Unspecified
   vulnerable: true
 - repo: fedora_41
-  subrepo: updates
-  srcname: rsync
-  binnames:
-    - rsync
-    - rsync-daemon
-  visiblename: rsync
-  version: 3.4.1
-  origversion: 3.4.1-1.fc41
-  status: outdated
-  summary: A program for synchronizing files over a network
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_41
   subrepo: release
   srcname: rsync
   binnames:
@@ -3243,16 +3253,15 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: fedora_42
-  subrepo: release
+- repo: fedora_41
+  subrepo: updates
   srcname: rsync
   binnames:
     - rsync
     - rsync-daemon
-    - rsync-rrsync
   visiblename: rsync
   version: 3.4.1
-  origversion: 3.4.1-3.fc42
+  origversion: 3.4.1-1.fc41
   status: outdated
   summary: A program for synchronizing files over a network
   licenses:
@@ -3277,6 +3286,23 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: fedora_42
+  subrepo: release
+  srcname: rsync
+  binnames:
+    - rsync
+    - rsync-daemon
+    - rsync-rrsync
+  visiblename: rsync
+  version: 3.4.1
+  origversion: 3.4.1-3.fc42
+  status: outdated
+  summary: A program for synchronizing files over a network
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: fedora_43
   subrepo: release
   srcname: rsync
@@ -3294,14 +3320,20 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
+- repo: ibmi
   srcname: rsync
-  binname: rsync
+  binnames:
+    - rsync
+    - rsync-compat
   visiblename: rsync
-  version: 3.2.3
-  origversion: null
-  status: legacy
+  version: 3.4.1
+  origversion: 3.4.1-1
+  status: outdated
+  summary: Remote sync utility
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: fedora_44
   subrepo: release
@@ -3374,35 +3406,32 @@
   origversion: null
   status: legacy
   vulnerable: true
-- repo: ibmi
+- repo: hpux_11_31
+  subrepo: hppa_32
   srcname: rsync
-  binnames:
-    - rsync
-    - rsync-compat
+  binname: rsync
   visiblename: rsync
-  version: 3.4.1
-  origversion: 3.4.1-1
-  status: outdated
-  summary: Remote sync utility
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
+  version: 3.1.2
+  origversion: null
+  status: legacy
   vulnerable: true
-- repo: kali_rolling
-  subrepo: main
+- repo: hpux_11_31
+  subrepo: hppa_32
   srcname: rsync
-  binnames:
-    - rsync
+  binname: rsync
   visiblename: rsync
-  version: 3.5.1
-  origversion: 3.5.1+ds1-2
-  status: outdated
-  maintainers:
-    - samueloph@debian.org
-    - paul@debian.org
-  categories:
-    - net
+  version: 3.2.3
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.1.2
+  origversion: null
+  status: legacy
   vulnerable: true
 - repo: liguros_stable
   srcname: net-misc/rsync
@@ -3527,16 +3556,6 @@
     - GPLv3+
   categories:
     - Networking/File transfer
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: rsync
-  visiblename: rsync
-  version: 3.2.3
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
   vulnerable: true
 - repo: manjaro_stable
   subrepo: extra
@@ -3827,21 +3846,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
-  srcname: rsync
-  binnames:
-    - rsync
-  visiblename: rsync
-  version: 3.5.0
-  origversion: 3.5.0+ds1-0+deb13u1
-  status: outdated
-  maintainers:
-    - samueloph@debian.org
-    - paul@debian.org
-  categories:
-    - net
-  vulnerable: true
 - repo: openindiana
   subrepo: hipster
   srcname: rsync
@@ -4066,6 +4070,19 @@
     - Productivity/Networking/Other
   vulnerable: true
 - repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: rsync
+  visiblename: rsync
+  version: 3.2.7
+  origversion: 3.2.7-150600.1.5
+  status: outdated
+  summary: Versatile tool for fast incremental file transfer
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Networking/Other
+  vulnerable: true
+- repo: opensuse_leap_15_6
   subrepo: updates/sle
   srcname: rsync
   visiblename: rsync
@@ -4117,19 +4134,6 @@
   categories:
     - Productivity/Networking/Other
   vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: rsync
-  visiblename: rsync
-  version: 3.2.7
-  origversion: 3.2.7-150600.1.5
-  status: outdated
-  summary: Versatile tool for fast incremental file transfer
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Productivity/Networking/Other
-  vulnerable: true
 - repo: openwrt_23_05_x86_64
   subrepo: packages
   srcname: feeds/packages/net/rsync
@@ -4166,66 +4170,6 @@
   status: outdated
   maintainers:
     - m.storchak@gmail.com
-  categories:
-    - net
-  vulnerable: true
-- repo: pardus_21
-  subrepo: updates/main
-  srcname: rsync
-  binnames:
-    - rsync
-  visiblename: rsync
-  version: 3.2.3
-  origversion: 3.2.3-4+deb11u4
-  status: outdated
-  maintainers:
-    - paul@debian.org
-    - samueloph@debian.org
-  categories:
-    - net
-  vulnerable: true
-- repo: pardus_21
-  subrepo: main
-  srcname: rsync
-  binnames:
-    - rsync
-  visiblename: rsync
-  version: 3.2.3
-  origversion: 3.2.3-4+deb11u1
-  status: outdated
-  maintainers:
-    - paul@debian.org
-    - samueloph@debian.org
-  categories:
-    - net
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
-  srcname: rsync
-  binnames:
-    - rsync
-  visiblename: rsync
-  version: 3.5.0
-  origversion: 3.5.0+ds1-0+deb13u2
-  status: outdated
-  maintainers:
-    - samueloph@debian.org
-    - paul@debian.org
-  categories:
-    - net
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: rsync
-  binnames:
-    - rsync
-  visiblename: rsync
-  version: 3.5.0
-  origversion: 3.5.0+ds1-0+deb13u2
-  status: outdated
-  maintainers:
-    - samueloph@debian.org
-    - paul@debian.org
   categories:
     - net
   vulnerable: true
@@ -4309,6 +4253,21 @@
   categories:
     - net
   vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rsync
+  binnames:
+    - rsync
+  visiblename: rsync
+  version: 3.5.0
+  origversion: 3.5.0+ds1-0+deb13u1
+  status: outdated
+  maintainers:
+    - samueloph@debian.org
+    - paul@debian.org
+  categories:
+    - net
+  vulnerable: true
 - repo: rocky_8
   subrepo: BaseOS
   srcname: rsync
@@ -4338,6 +4297,21 @@
     - GPLv3+
   categories:
     - Applications/Internet
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
+  srcname: rsync
+  binnames:
+    - rsync
+  visiblename: rsync
+  version: 3.1.3
+  origversion: 3.1.3-8ubuntu0.9
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - samueloph@debian.org
+  categories:
+    - net
   vulnerable: true
 - repo: rocky_8
   subrepo: BaseOS
@@ -4488,12 +4462,42 @@
   categories:
     - Networking/File transfer
   vulnerable: true
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: rsync
+  visiblename: rsync
+  version: 3.2.3
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: rsync
+  visiblename: rsync
+  version: 3.2.3
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: rsync
+  visiblename: rsync
+  version: 3.2.3
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
 - repo: ubi_8
   subrepo: baseos
   srcname: rsync
   visiblename: rsync
   version: 3.1.3
-  origversion: 3.1.3-28.el8_10
+  origversion: 3.1.3-30.el8_10
   status: outdated
   summary: A program for synchronizing files over a network
   licenses:
@@ -4558,20 +4562,6 @@
     - net
   vulnerable: true
 - repo: ubuntu_18_04
-  subrepo: bionic/main
-  srcname: rsync
-  binnames:
-    - rsync
-  visiblename: rsync
-  version: 3.1.2
-  origversion: 3.1.2-2.1ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - net
-  vulnerable: true
-- repo: ubuntu_18_04
   subrepo: bionic-updates/main
   srcname: rsync
   binnames:
@@ -4579,6 +4569,20 @@
   visiblename: rsync
   version: 3.1.2
   origversion: 3.1.2-2.1ubuntu1.6
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - net
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic/main
+  srcname: rsync
+  binnames:
+    - rsync
+  visiblename: rsync
+  version: 3.1.2
+  origversion: 3.1.2-2.1ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4600,14 +4604,14 @@
   categories:
     - net
   vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal-updates/main
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/main
   srcname: rsync
   binnames:
     - rsync
   visiblename: rsync
-  version: 3.1.3
-  origversion: 3.1.3-8ubuntu0.9
+  version: 3.2.7
+  origversion: 3.2.7-0ubuntu0.22.04.7
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4624,21 +4628,6 @@
   version: 3.2.3
   origversion: 3.2.3-8ubuntu3
   status: legacy
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - samueloph@debian.org
-  categories:
-    - net
-  vulnerable: true
-- repo: ubuntu_22_04
-  subrepo: jammy-updates/main
-  srcname: rsync
-  binnames:
-    - rsync
-  visiblename: rsync
-  version: 3.2.7
-  origversion: 3.2.7-0ubuntu0.22.04.7
-  status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
     - samueloph@debian.org
@@ -4691,13 +4680,13 @@
     - net
   vulnerable: true
 - repo: ubuntu_25_10
-  subrepo: questing/main
+  subrepo: questing-updates/main
   srcname: rsync
   binnames:
     - rsync
   visiblename: rsync
   version: 3.4.1
-  origversion: 3.4.1+ds1-5ubuntu1
+  origversion: 3.4.1+ds1-5ubuntu1.3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4706,13 +4695,13 @@
     - net
   vulnerable: true
 - repo: ubuntu_25_10
-  subrepo: questing-updates/main
+  subrepo: questing/main
   srcname: rsync
   binnames:
     - rsync
   visiblename: rsync
   version: 3.4.1
-  origversion: 3.4.1+ds1-5ubuntu1.3
+  origversion: 3.4.1+ds1-5ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4800,3 +4789,14 @@
   licenses:
     - GPL-3.0
   vulnerable: true
+- repo: parabola
+  subrepo: extra
+  srcname: rsync
+  binname: rsync
+  visiblename: rsync
+  version: 3.5.2
+  origversion: 3.5.2-1
+  status: newest
+  summary: A fast and versatile file copying tool for remote and local files
+  licenses:
+    - GPL-3.0-or-later
