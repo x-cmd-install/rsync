@@ -14,14 +14,14 @@ x install rsync
 
 ## Code insight
 
-Total: **98,903** lines of code across **586** files in the top 5 languages.
+Total: **100,384** lines of code across **602** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 50,686 | 9,663 | 7,175 | 93 |
-| Python | 35,015 | 987 | 5,897 | 421 |
+| C | 51,336 | 9,696 | 7,225 | 93 |
+| Python | 35,824 | 1,014 | 6,030 | 437 |
 | Html | 4,906 | 124 | 551 | 37 |
-| CHeader | 4,243 | 2,541 | 876 | 33 |
+| CHeader | 4,255 | 2,543 | 879 | 33 |
 | AssemblyGAS | 857 | 27 | 26 | 2 |
 
 ## Source
@@ -33,27 +33,27 @@ Total: **98,903** lines of code across **586** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v3.2.8` (2026-11-15)
-- **Last commit**: 2026-11-21
+- **Last commit**: 2026-11-22
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,377 · **Forks**: 631 · **Open issues**: 650 · **Contributors**: 105
+- **Stars**: 5,376 · **Forks**: 631 · **Open issues**: 651 · **Contributors**: 113
 
 ## Totals (cumulative)
 
-- **Releases**: 9 · **Merged PRs**: 271 · **Open PRs**: 52 · **Closed issues**: 397 · **Open issues**: 253 · **Commits**: 8066
+- **Releases**: 9 · **Merged PRs**: 285 · **Open PRs**: 28 · **Closed issues**: 399 · **Open issues**: 252 · **Commits**: 8083
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 2 | 18 | 4 | 6 | 6 | 54 |
-| last60d | 2026-09-22 | 2 | 36 | 5 | 18 | 9 | 72 |
-| 90d | 2026-08-23 | 3 | 54 | 5 | 31 | 11 | 97 |
-| last180d | 2026-05-25 | 5 | 137 | 20 | 54 | 18 | 469 |
-| 360d | 2025-11-26 | 7 | 171 | 25 | 85 | 31 | 573 |
-| last720d | 2024-12-01 | 9 | 199 | 37 | 130 | 77 | 630 |
+| 30d | 2026-10-23 | 2 | 23 | 3 | 7 | 6 | 67 |
+| last60d | 2026-09-23 | 2 | 41 | 4 | 19 | 9 | 89 |
+| 90d | 2026-08-24 | 3 | 60 | 4 | 32 | 11 | 113 |
+| last180d | 2026-05-26 | 5 | 142 | 13 | 56 | 17 | 471 |
+| 360d | 2025-11-27 | 7 | 179 | 14 | 87 | 30 | 590 |
+| last720d | 2024-12-02 | 9 | 210 | 21 | 132 | 76 | 647 |
 
 ## Release assets
 
@@ -64,7 +64,7 @@ Total: **98,903** lines of code across **586** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **363** distros on [repology.org](https://repology.org/project/rsync). **86** are ✅ on the latest upstream release, **195** are ⚠️ on an older version.
+Reported by **363** distros on [repology.org](https://repology.org/project/rsync). **86** are ✅ on the latest upstream release, **196** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for rsync lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T08:30:16Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T08:28:48Z._
