@@ -2,25 +2,25 @@ about:
   description: "An open source utility that provides fast incremental file transfer. It also has useful features for backup and restore operations among many other use cases."
   license: NOASSERTION
   homepage: https://rsync.samba.org
-  head: df0bb4e
+  head: 4da5640
   archived: false
   latestVersion: "v3.2.8"
   latestRelease: "v3.2.8"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T09:57:01Z
+  collectedAt: 2026-11-28T09:13:03Z
 timeline:
   created: 2020-05-25
-  lastCommit: 2026-11-27
+  lastCommit: 2026-11-28
   lastVersion: 2026-11-15
   lastRelease: 2026-11-15
   lastPrerelease: 
 popularity:
-  star: 5384
+  star: 5385
   watcher: 62
-  fork: 632
+  fork: 633
   release: 9
   contributor: 130
-  pullRequest: 438
+  pullRequest: 440
   issue: 653
 language:
   C: 2341812
@@ -40,63 +40,63 @@ language:
 totalBytes: 4521264
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 2
     mergedPR: 30
-    openPR: 2
+    openPR: 4
     closedIssue: 8
     openIssue: 7
-    commit: 100
+    commit: 101
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 2
-    mergedPR: 50
-    openPR: 2
-    closedIssue: 18
+    mergedPR: 48
+    openPR: 4
+    closedIssue: 17
     openIssue: 9
-    commit: 122
+    commit: 123
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 3
     mergedPR: 70
-    openPR: 2
-    closedIssue: 32
+    openPR: 4
+    closedIssue: 31
     openIssue: 12
-    commit: 146
+    commit: 147
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 5
-    mergedPR: 151
-    openPR: 5
-    closedIssue: 51
-    openIssue: 17
-    commit: 504
+    mergedPR: 149
+    openPR: 7
+    closedIssue: 50
+    openIssue: 16
+    commit: 505
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 7
     mergedPR: 194
-    openPR: 6
+    openPR: 8
     closedIssue: 90
     openIssue: 28
-    commit: 623
+    commit: 624
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 9
     mergedPR: 230
-    openPR: 6
-    closedIssue: 136
-    openIssue: 73
-    commit: 680
+    openPR: 8
+    closedIssue: 135
+    openIssue: 72
+    commit: 681
 total:
   release: 9
   mergedPR: 312
-  openPR: 6
+  openPR: 8
   closedIssue: 405
   openIssue: 248
-  commit: 8116
+  commit: 8117
 ---
 path: /home/runner/.x-repo/github.com/RsyncProject/rsync
-collectedAt: 2026-11-27T09:57:07Z
+collectedAt: 2026-11-28T09:13:08Z
 loc:
   C:
     code: 53358
@@ -206,4 +206,4 @@ total:
 ---
 
 ---
-{"id":433229702,"author":{"login":"steadytao","id":257921855,"node_id":"U_kgDOD1-TPw","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOD-g7vs4Z0o-G","tag_name":"v3.5.2","target_commitish":"master","name":"v3.5.2","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-11-03T21:09:10Z","updated_at":"2026-11-03T21:20:37Z","published_at":"2026-11-03T21:20:37Z","assets":[{"id":707132533,"node_id":"RA_kwDOD-g7vs4qJfx1","name":"rsync-3.5.2.tar.gz","label":null,"uploader":{"login":"steadytao","id":257921855,"node_id":"U_kgDOD1-TPw","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/x-gzip","state":"uploaded","size":1977884,"digest":"sha256:a10d591825251e070f74c98df3daad195def4ed81b4a2de16169026aea33f6c8","download_count":8590,"created_at":"2026-11-03T21:20:16Z","updated_at":"2026-11-03T21:20:19Z"},{"id":707132383,"node_id":"RA_kwDOD-g7vs4qJfvf","name":"rsync-3.5.2.tar.gz.asc","label":null,"uploader":{"login":"steadytao","id":257921855,"node_id":"U_kgDOD1-TPw","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":273,"digest":"sha256:2979e876bd8b75c1fe36da470a7ec6c50672c2e3787a0bdc48ebf52e99e07044","download_count":291,"created_at":"2026-11-03T21:20:14Z","updated_at":"2026-11-03T21:20:16Z"}],"body":"This release fixes CVE-2026-119741 and other issues found since 3.5.1, and adds process-priority controls. For details, see https://download.samba.org/pub/rsync/NEWS#3.5.2\r\n\r\nFull changelog: https://github.com/RsyncProject/rsync/compare/v3.5.1...v3.5.2","reactions":{"total_count":12,"+1":4,"-1":0,"laugh":0,"hooray":1,"confused":0,"heart":5,"rocket":2,"eyes":0}}
+{"id":433229702,"author":{"login":"steadytao","id":257921855,"node_id":"U_kgDOD1-TPw","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOD-g7vs4Z0o-G","tag_name":"v3.5.2","target_commitish":"master","name":"v3.5.2","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-11-03T21:09:10Z","updated_at":"2026-11-03T21:20:37Z","published_at":"2026-11-03T21:20:37Z","assets":[{"id":707132533,"node_id":"RA_kwDOD-g7vs4qJfx1","name":"rsync-3.5.2.tar.gz","label":null,"uploader":{"login":"steadytao","id":257921855,"node_id":"U_kgDOD1-TPw","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/x-gzip","state":"uploaded","size":1977884,"digest":"sha256:a10d591825251e070f74c98df3daad195def4ed81b4a2de16169026aea33f6c8","download_count":8995,"created_at":"2026-11-03T21:20:16Z","updated_at":"2026-11-03T21:20:19Z"},{"id":707132383,"node_id":"RA_kwDOD-g7vs4qJfvf","name":"rsync-3.5.2.tar.gz.asc","label":null,"uploader":{"login":"steadytao","id":257921855,"node_id":"U_kgDOD1-TPw","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":273,"digest":"sha256:2979e876bd8b75c1fe36da470a7ec6c50672c2e3787a0bdc48ebf52e99e07044","download_count":305,"created_at":"2026-11-03T21:20:14Z","updated_at":"2026-11-03T21:20:16Z"}],"body":"This release fixes CVE-2026-119741 and other issues found since 3.5.1, and adds process-priority controls. For details, see https://download.samba.org/pub/rsync/NEWS#3.5.2\r\n\r\nFull changelog: https://github.com/RsyncProject/rsync/compare/v3.5.1...v3.5.2","reactions":{"total_count":12,"+1":4,"-1":0,"laugh":0,"hooray":1,"confused":0,"heart":5,"rocket":2,"eyes":0}}
