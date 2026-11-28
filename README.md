@@ -33,27 +33,27 @@ Total: **104,937** lines of code across **647** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v3.2.8` (2026-11-15)
-- **Last commit**: 2026-11-27
+- **Last commit**: 2026-11-28
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 5,384 · **Forks**: 632 · **Open issues**: 653 · **Contributors**: 130
+- **Stars**: 5,385 · **Forks**: 633 · **Open issues**: 653 · **Contributors**: 130
 
 ## Totals (cumulative)
 
-- **Releases**: 9 · **Merged PRs**: 312 · **Open PRs**: 6 · **Closed issues**: 405 · **Open issues**: 248 · **Commits**: 8116
+- **Releases**: 9 · **Merged PRs**: 312 · **Open PRs**: 8 · **Closed issues**: 405 · **Open issues**: 248 · **Commits**: 8117
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 2 | 30 | 2 | 8 | 7 | 100 |
-| last60d | 2026-09-28 | 2 | 50 | 2 | 18 | 9 | 122 |
-| 90d | 2026-08-29 | 3 | 70 | 2 | 32 | 12 | 146 |
-| last180d | 2026-05-31 | 5 | 151 | 5 | 51 | 17 | 504 |
-| 360d | 2025-12-02 | 7 | 194 | 6 | 90 | 28 | 623 |
-| last720d | 2024-12-07 | 9 | 230 | 6 | 136 | 73 | 680 |
+| 30d | 2026-10-29 | 2 | 30 | 4 | 8 | 7 | 101 |
+| last60d | 2026-09-29 | 2 | 48 | 4 | 17 | 9 | 123 |
+| 90d | 2026-08-30 | 3 | 70 | 4 | 31 | 12 | 147 |
+| last180d | 2026-06-01 | 5 | 149 | 7 | 50 | 16 | 505 |
+| 360d | 2025-12-03 | 7 | 194 | 8 | 90 | 28 | 624 |
+| last720d | 2024-12-08 | 9 | 230 | 8 | 135 | 72 | 681 |
 
 ## Release assets
 
@@ -71,4 +71,4 @@ Install metadata for rsync lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T09:57:27Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T09:13:28Z._
